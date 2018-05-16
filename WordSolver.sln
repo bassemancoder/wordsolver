@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageOCR", "ImageOCR\ImageOCR.csproj", "{28E73D79-D2D5-45CB-93D8-C4B4C1F5333A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{1B8084C1-E25F-40A5-8357-AF3F0922D8C8}"
+	ProjectSection(SolutionItems) = preProject
+		Data\eng.traineddata = Data\eng.traineddata
+		Data\Screenshot_20180128-212629.png = Data\Screenshot_20180128-212629.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordamentSolver", "WordamentSolver\WordamentSolver.csproj", "{B4ECE0FC-1791-422A-B590-581F4F06F643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DctionarySolver", "DctionarySolver\DctionarySolver.csproj", "{CEDA0D43-2FE6-419C-A30E-8F9AC77DB4C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28E73D79-D2D5-45CB-93D8-C4B4C1F5333A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E73D79-D2D5-45CB-93D8-C4B4C1F5333A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E73D79-D2D5-45CB-93D8-C4B4C1F5333A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E73D79-D2D5-45CB-93D8-C4B4C1F5333A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4ECE0FC-1791-422A-B590-581F4F06F643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4ECE0FC-1791-422A-B590-581F4F06F643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4ECE0FC-1791-422A-B590-581F4F06F643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4ECE0FC-1791-422A-B590-581F4F06F643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDA0D43-2FE6-419C-A30E-8F9AC77DB4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDA0D43-2FE6-419C-A30E-8F9AC77DB4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDA0D43-2FE6-419C-A30E-8F9AC77DB4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDA0D43-2FE6-419C-A30E-8F9AC77DB4C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
